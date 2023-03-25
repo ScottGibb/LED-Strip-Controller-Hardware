@@ -1,7 +1,7 @@
 # LED Strip Controller Hardware
 
 <center>
-    <!-- <img src="https://raw.githubusercontent.com/LEDStripController/LEDStripController/master/Hardware/LEDStripController.png" width="50%" height="50%"> -->
+    <img src= "docs/Title.png">
 </center>
 
 ## Summary
@@ -13,6 +13,23 @@ As for the PCB designs, the designs are all done in KiCad and come in multiple f
 # Repository Structure
 
 As for the repository, it tends to follow the convention of splitting into microcontroller based designs and then into the different designs. The microcontroller based designs are split into ESP based designs and STM32 based designs. Within each of these folders the design is targeted at a specific application. At this point the application will usually follow a Components Based Design, a Veroboard Based Design and a Module based Design. Allowing maximum flexibility for the user.
+
+The Folder Structure is as follows:
+
+```bash
+├── README.md
+├── docs
+└── STM32
+    ├── STM32F103
+    │   ├── ReadMe.md
+    │   ├── Server Rack Controller
+    |   |   ├── docs
+    │   │   ├── Components Based Design
+    │   │   ├── Module Based Design
+    │   │   └── Veroboard Based Design
+    │   |   ├── ReadMe.md
+
+```
 
 # Useful Links
 
