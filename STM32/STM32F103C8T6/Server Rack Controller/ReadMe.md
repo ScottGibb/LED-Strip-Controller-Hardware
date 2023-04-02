@@ -33,3 +33,4 @@ The repository is split into the different designs. The designs are as follows:
 # Useful Links
 
 - [Thingiverse](https://www.thingiverse.com/scottgibb/designs)
+- [3D Printable Case](https://www.thingiverse.com/thing:5936206)
